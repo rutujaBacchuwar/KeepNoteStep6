@@ -1,0 +1,12 @@
+spring:
+  data:
+    mongodb:
+ #     authentication-database:
+    
+      database: categorydb
+      port: 27017
+      host: localhost
+  application:
+    name: category-service
+server:
+  port: 8083
